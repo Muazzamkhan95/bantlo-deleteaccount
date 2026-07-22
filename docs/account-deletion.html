@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bantlo — Request account &amp; data deletion</title>
+    <meta
+      name="description"
+      content="Request deletion of your Bantlo account and associated data."
+    />
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #1a2332;
+        --muted: #5a6575;
+        --bg: #f6f4ef;
+        --card: #ffffff;
+        --accent: #0d7a5f;
+        --border: #e2ddd3;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: Georgia, "Times New Roman", serif;
+        background:
+          radial-gradient(ellipse at top left, #e8f3ee 0%, transparent 45%),
+          radial-gradient(ellipse at bottom right, #efe8dc 0%, transparent 40%),
+          var(--bg);
+        color: var(--ink);
+        line-height: 1.55;
+      }
+
+      main {
+        max-width: 40rem;
+        margin: 0 auto;
+        padding: 2.5rem 1.25rem 4rem;
+      }
+
+      h1 {
+        font-size: clamp(1.75rem, 4vw, 2.25rem);
+        line-height: 1.2;
+        margin: 0 0 0.35rem;
+        letter-spacing: -0.02em;
+      }
+
+      .brand {
+        font-size: 0.85rem;
+        font-family: system-ui, sans-serif;
+        font-weight: 600;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--accent);
+        margin-bottom: 0.75rem;
+      }
+
+      .lead {
+        color: var(--muted);
+        font-size: 1.05rem;
+        margin: 0 0 1.75rem;
+      }
+
+      section {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 1.25rem 1.35rem;
+        margin-bottom: 1rem;
+      }
+
+      h2 {
+        font-size: 1.15rem;
+        margin: 0 0 0.65rem;
+      }
+
+      p,
+      li {
+        font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+        font-size: 0.95rem;
+      }
+
+      p {
+        margin: 0 0 0.75rem;
+      }
+
+      p:last-child,
+      ul:last-child {
+        margin-bottom: 0;
+      }
+
+      ul {
+        margin: 0;
+        padding-left: 1.2rem;
+      }
+
+      li {
+        margin-bottom: 0.35rem;
+      }
+
+      .cta {
+        display: inline-block;
+        margin-top: 0.35rem;
+        padding: 0.85rem 1.25rem;
+        background: var(--accent);
+        color: #fff;
+        text-decoration: none;
+        border-radius: 8px;
+        font-family: system-ui, sans-serif;
+        font-weight: 600;
+        font-size: 0.95rem;
+      }
+
+      .cta:hover {
+        filter: brightness(1.05);
+      }
+
+      .note {
+        color: var(--muted);
+        font-size: 0.88rem;
+      }
+
+      footer {
+        margin-top: 1.5rem;
+        font-family: system-ui, sans-serif;
+        font-size: 0.85rem;
+        color: var(--muted);
+      }
+
+      a {
+        color: var(--accent);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p class="brand">Bantlo</p>
+      <h1>Request account &amp; data deletion</h1>
+      <p class="lead">
+        Use this page to ask Codebeams to delete your Bantlo account and the
+        personal data linked to it.
+      </p>
+
+      <section>
+        <h2>How to request deletion</h2>
+        <ol>
+          <li>
+            Tap or click the button below to open an email to
+            <strong>muazzamkhan95@gmail.com</strong>.
+          </li>
+          <li>
+            Keep the subject line, and include the email address used for your
+            Bantlo account (and Google Sign-In email if different).
+          </li>
+          <li>
+            Send the message. We verify ownership of the account before deleting
+            anything.
+          </li>
+        </ol>
+        <p style="margin-top: 1rem">
+          <a
+            class="cta"
+            href="mailto:muazzamkhan95@gmail.com?subject=Bantlo%20account%20deletion%20request&body=Please%20delete%20my%20Bantlo%20account%20and%20associated%20data.%0A%0AAccount%20email%3A%20%0A"
+            >Email deletion request</a
+          >
+        </p>
+        <p class="note" style="margin-top: 0.85rem">
+          If the button does not open your mail app, send an email yourself to
+          <a href="mailto:muazzamkhan95@gmail.com">muazzamkhan95@gmail.com</a>
+          with the subject “Bantlo account deletion request”.
+        </p>
+      </section>
+
+      <section>
+        <h2>What we delete</h2>
+        <p>After verifying your request, we permanently delete:</p>
+        <ul>
+          <li>Your Bantlo account and authentication credentials</li>
+          <li>Profile details (name, email, photo URL)</li>
+          <li>Group memberships and related account preferences</li>
+          <li>
+            Expenses, settlements, comments, and activity you created, where they
+            are not still needed for other members’ shared group records
+          </li>
+          <li>Device notification tokens and local PIN credentials tied to you</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>What may be retained</h2>
+        <ul>
+          <li>
+            Shared group content that other members still need (for example, an
+            expense you added in an active group may remain visible to them, with
+            your name removed or anonymized where practical)
+          </li>
+          <li>
+            Records we must keep for legal, security, fraud-prevention, or
+            accounting reasons, for as long as required by law
+          </li>
+          <li>Aggregated analytics that cannot identify you</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Timing</h2>
+        <p>
+          We aim to complete verified deletion requests within
+          <strong>30 days</strong>. You will receive a confirmation email when
+          the process is finished.
+        </p>
+        <p class="note">
+          Deletion is permanent. If you have an active Bantlo Pro subscription,
+          cancel it in Google Play before or when requesting deletion.
+        </p>
+      </section>
+
+      <footer>
+        Bantlo by Codebeams ·
+        <a href="https://play.google.com/store/apps/details?id=com.codebeams.bantlo"
+          >Play Store</a
+        >
+      </footer>
+    </main>
+  </body>
+</html>
